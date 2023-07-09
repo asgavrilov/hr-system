@@ -1,8 +1,8 @@
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/hr
-    username: postgres
-    password: techbankRootPsw
+    username: ${DB_USR}
+    password: ${DB_PWD}
 #Hibernate
   jpa:
     show-sql: true
